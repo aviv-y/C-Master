@@ -40,5 +40,10 @@ namespace AvivOOPTest
             Ans4 ans4 = new Ans4();
             ans4.Run();
         }
+
+        private void btnAns6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
