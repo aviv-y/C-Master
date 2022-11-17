@@ -25,6 +25,12 @@ namespace AvivOOPTest
 
         private void btnAns2_Click(object sender, EventArgs e)
         {
+            Ans2 ans2 = new Ans2();
+            ans2.Run();
+        }
+
+        private void btnAns3_Click(object sender, EventArgs e)
+        {
 
         }
     }

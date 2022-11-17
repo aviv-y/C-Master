@@ -31,6 +31,7 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnAns1 = new System.Windows.Forms.Button();
             this.btnAns2 = new System.Windows.Forms.Button();
+            this.btnAns3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -65,11 +66,23 @@
             this.btnAns2.UseVisualStyleBackColor = false;
             this.btnAns2.Click += new System.EventHandler(this.btnAns2_Click);
             // 
+            // btnAns3
+            // 
+            this.btnAns3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnAns3.Location = new System.Drawing.Point(42, 292);
+            this.btnAns3.Name = "btnAns3";
+            this.btnAns3.Size = new System.Drawing.Size(109, 53);
+            this.btnAns3.TabIndex = 3;
+            this.btnAns3.Text = "Answer #3";
+            this.btnAns3.UseVisualStyleBackColor = false;
+            this.btnAns3.Click += new System.EventHandler(this.btnAns3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(428, 450);
+            this.Controls.Add(this.btnAns3);
             this.Controls.Add(this.btnAns2);
             this.Controls.Add(this.btnAns1);
             this.Controls.Add(this.lblTitle);
@@ -85,6 +98,7 @@
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnAns1;
         private System.Windows.Forms.Button btnAns2;
+        private System.Windows.Forms.Button btnAns3;
     }
 }
 
