@@ -30,6 +30,7 @@
         {
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnAns1 = new System.Windows.Forms.Button();
+            this.btnAns2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -53,11 +54,23 @@
             this.btnAns1.UseVisualStyleBackColor = false;
             this.btnAns1.Click += new System.EventHandler(this.btnAns1_Click);
             // 
+            // btnAns2
+            // 
+            this.btnAns2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnAns2.Location = new System.Drawing.Point(42, 193);
+            this.btnAns2.Name = "btnAns2";
+            this.btnAns2.Size = new System.Drawing.Size(109, 53);
+            this.btnAns2.TabIndex = 2;
+            this.btnAns2.Text = "Answer #2";
+            this.btnAns2.UseVisualStyleBackColor = false;
+            this.btnAns2.Click += new System.EventHandler(this.btnAns2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(428, 450);
+            this.Controls.Add(this.btnAns2);
             this.Controls.Add(this.btnAns1);
             this.Controls.Add(this.lblTitle);
             this.Name = "Form1";
@@ -71,6 +84,7 @@
 
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnAns1;
+        private System.Windows.Forms.Button btnAns2;
     }
 }
 
